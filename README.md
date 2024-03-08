@@ -22,6 +22,8 @@ As result, the trained model is expected to be capable of determine with a high 
 
 ## Algorithm design and implementation
 
+### Feature vector definition
+
 In order to understand the problem to be solved consider the following definition: A picture catalogued as urban-natural landscapes must fulfill the following criteria:
 
 1. The image depicts clear daytime skies or moderate cloud cover.
@@ -31,7 +33,19 @@ In order to understand the problem to be solved consider the following definitio
 
 With the characterization provided above the feature vector is defined as follows:
 
-$$ featureVector = (skyIdxArea, greenIdx, blueIdx $$
+$$ featureVector = (skyIdxArea, greenIdx, blueIdx) $$
+
+Where each feature is defined down bellow:
+
+* **skyIdxArea:** Compound and area bounded index that measures the sky level in the picture. This feature combines a blue mask (_RGB_ color profile) with a brightness (_HSV_ color profile) mask to discriminate sky color within a limited zone.
+* **greenIdx:** Index that measures the nature level in the picture. This feature is uses a green mask (_RGB_ color profile) to discriminate vegetation. 
+* **blueIdx:** Index that measures the urban buildings level in the picture. This feature is uses a blue mask (_RGB_ color profile) to discriminate urban facades.
+
+### Pattern recognition and learning algorithm
+
+### Implementation
+
+This project is implemented using Python with openCV and NumPy as supporting libraries to perform image manipulation and matrix operations. Check the code base in the [GitHub repository](https://github.com/andresmg07/landscape-recognizer/).
 
 
 ## Resulting model
