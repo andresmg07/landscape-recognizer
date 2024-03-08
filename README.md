@@ -37,7 +37,7 @@ $$ featureVector = (skyIdxArea, greenIdx, blueIdx) $$
 
 Where each feature is defined down bellow:
 
-* **skyIdxArea:** Compound and area bounded index that measures the sky level in the picture. This feature combines a blue mask (_RGB_ color profile) with a brightness (_HSV_ color profile) mask to discriminate sky color within a limited zone.
+* **skyIdxArea:** Compound and area bounded index that measures the sky level in the picture. This feature combines a blue mask (_RGB_ color profile) with a brightness mask (_HSV_ color profile) to discriminate sky color within a limited zone.
 * **greenIdx:** Index that measures the nature level in the picture. This feature is uses a green mask (_RGB_ color profile) to discriminate vegetation. 
 * **blueIdx:** Index that measures the urban buildings level in the picture. This feature is uses a blue mask (_RGB_ color profile) to discriminate urban facades.
 
