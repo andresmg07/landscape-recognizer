@@ -45,7 +45,7 @@ Where each feature is defined down bellow:
 
 The structure and data flow of the implemented supervised ML classification algorithm is presented in the diagram down bellow.
 
-![Diagram](diagram.svg)
+![Diagram](diagram.png)
 
 When input data enters the classification algorithm it is pre-processed, its features are extracted and lastly the classification model is either trained or used to determine the nature of the given picture. In the recognition process the result is a logit classification.
 
