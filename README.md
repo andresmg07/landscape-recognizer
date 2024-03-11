@@ -1,12 +1,28 @@
-# landscape-recognizer
+# Landscape recognizer
  
 Supervised ML classification algorithm implemented through pattern recognition techniques and statistical methods.
-
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=flat&logo=opencv&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+## Table of contents
+
+* [Landscape recognizer](#landscape-recognizer)
+  * [Table of contents](#table-of-contents)
+  * [Project description](#project-description)
+    * [Constraints](#constraints)
+  * [Algorithm design and implementation](#algorithm-design-and-implementation)
+    * [Feature vector definition](#feature-vector-definition)
+    * [Pattern recognition and learning algorithm](#pattern-recognition-and-learning-algorithm)
+    * [Implementation](#implementation)
+  * [Resulting model](#resulting-model)
+  * [Testing](#testing)
+    * [Testing results](#testing-results)
+  * [Conclusion](#conclusion)
+  * [Author](#author)
+  * [License](#license)
 
 ## Project description
 
