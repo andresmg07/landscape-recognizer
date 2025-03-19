@@ -102,8 +102,8 @@ As conclusion, while the restrictions imposed on the design of the algorithm pre
 ## Author
 
 **Andrés Montero Gamboa**<br>
-Computing engineering undergraduate<br>
-Instituto Tecnológico de Costa Rica<br>
+Computing engineer<br>
+Graduated from Tecnológico de Costa Rica<br>
 [LinkedIn](https://www.linkedin.com/in/andres-montero-gamboa) | [GitHub](https://github.com/andresmg07)
 
 ## License
